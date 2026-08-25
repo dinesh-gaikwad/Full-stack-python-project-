@@ -1,0 +1,1 @@
+{% extends 'shop/base.html' %}{% block content %}<h1>My Orders</h1>{% for o in orders %}<article><h2>Order #{{o.id}}</h2><p>Status: {{o.status}} | Total: ₹{{o.total}}</p>{% for i in o.items.all %}<p>{{i.product_name}} × {{i.quantity}} = ₹{{i.subtotal}}</p>{% endfor %}</article>{empty}<p>No orders yet.</p>{% endfor %}{% endblock %}
