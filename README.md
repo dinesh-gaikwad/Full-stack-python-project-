@@ -1,52 +1,75 @@
-# Django E-commerce Platform — Major Project
+# DSG Developer — Neuro Arcade X v2
 
-A complete internship-ready e-commerce foundation using Django, SQLite for development, Django authentication, sessions, cart, orders, search/filtering, admin customization, and Stripe sandbox integration.
+A large, polished, runnable full-stack developer learning + arcade platform rebuilt from the supplied WhatsApp/Meta AI transcript. Branding is **DSG Developer**.
 
-## Modules
-1. Django setup and configuration
-2. Categories and Products
-3. User registration/login/logout/profile
-4. Product listing/detail/search/filter
-5. Session cart for guests
-6. Authenticated cart
-7. Checkout and address
-8. Order management
-9. Stripe sandbox payment
-10. Django Admin
-11. Static files and environment configuration
-12. Deployment-ready structure
+## What is inside
 
-## Run
+- 150 game catalog entries with IDs, categories, modes, difficulty and XP rewards
+- 35 learning/workspace modules
+- Dashboard with XP, level, wins and mission cards
+- Searchable cheat-sheet engine
+- HTML, CSS, JavaScript, Python, React, Node, Django, SQL, MongoDB, DSA and AI/ML labs
+- Career roadmaps
+- Project Factory for portfolio projects
+- Code Snippet Vault
+- Render Deployment Center
+- Level Editor / Creator Lab
+- Marketplace route
+- Analytics dashboard
+- Local notes
+- Developer profile
+- LocalStorage progression
+- Responsive premium dark/neon UI
+- Express API: /api/health, /api/meta, /api/games, /api/modules, /api/feedback
+- render.yaml Blueprint
+- Dockerfile
+- environment template
+- smoke test script
+
+## Local run
+
 ```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# Linux/macOS
-source venv/bin/activate
-
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+npm install
+npm start
 ```
 
-Open http://127.0.0.1:8000/
+Open http://localhost:10000
 
-## Environment
-Copy `.env.example` to `.env` and configure secret key and Stripe test keys.
+## VS Code
 
-## Git
-```bash
-git init
-git add .
-git commit -m "Initial Django ecommerce platform"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/django-ecommerce-platform.git
-git push -u origin main
-```
+1. Extract the ZIP.
+2. Open the extracted folder in VS Code.
+3. Open terminal.
+4. Run `npm install`.
+5. Run `npm start`.
+6. Open `http://localhost:10000`.
 
-## Deployment
-Use a production database such as PostgreSQL, collect static files, set DEBUG=False, configure ALLOWED_HOSTS/CORS/CSRF, and provide Stripe test/production environment variables through the hosting platform.
+## Render deployment
 
-## Important
-Payment code is sandbox-oriented. Never store raw card details. Use Stripe Checkout/PaymentIntent and test keys.
+This project is prepared as a Node Web Service. In Render, connect the GitHub repository and use:
+
+- Runtime: Node
+- Build Command: `npm install`
+- Start Command: `npm start`
+- Health Check: `/api/health`
+- Root Directory: repository root
+
+The included `render.yaml` can also be used as a Blueprint.
+
+## GitHub
+
+Suggested repository name:
+`dsg-neuro-arcade-x`
+
+Suggested commit:
+`feat: launch DSG Developer Neuro Arcade X v2`
+
+## Branding
+
+Developer: **DSG Developer**
+Product: **Neuro Arcade X**
+Version: **2.0.0**
+
+## Production expansion
+
+The current package is deliberately dependency-light and runnable. For a production release, connect MongoDB/Postgres for persistent users, JWT/OAuth for authentication, object storage for creator assets, Socket.io/WebRTC for real-time features, and a CI pipeline for tests and deployment.

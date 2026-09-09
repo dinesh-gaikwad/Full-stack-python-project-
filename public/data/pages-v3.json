@@ -1,0 +1,332 @@
+[
+  {
+    "route": "login",
+    "title": "Login",
+    "description": "Secure member login with demo account support.",
+    "functional": true
+  },
+  {
+    "route": "register",
+    "title": "Registration",
+    "description": "Create a new DSG Developer account.",
+    "functional": true
+  },
+  {
+    "route": "profile",
+    "title": "My Profile",
+    "description": "Profile, skills, XP, level and activity.",
+    "functional": true
+  },
+  {
+    "route": "account",
+    "title": "Account Center",
+    "description": "Identity, account state and quick actions.",
+    "functional": true
+  },
+  {
+    "route": "security",
+    "title": "Security Center",
+    "description": "Password, sessions and security checklist.",
+    "functional": true
+  },
+  {
+    "route": "notifications",
+    "title": "Notifications",
+    "description": "Learning alerts, missions and product updates.",
+    "functional": true
+  },
+  {
+    "route": "favorites",
+    "title": "Favorites",
+    "description": "Your saved games, modules and projects.",
+    "functional": true
+  },
+  {
+    "route": "progress",
+    "title": "Progress Tracker",
+    "description": "Course completion and XP history.",
+    "functional": true
+  },
+  {
+    "route": "achievements",
+    "title": "Achievements",
+    "description": "Badges, milestones and unlocks.",
+    "functional": true
+  },
+  {
+    "route": "streaks",
+    "title": "Streaks & Goals",
+    "description": "Daily streak and weekly goals.",
+    "functional": true
+  },
+  {
+    "route": "calendar",
+    "title": "Learning Calendar",
+    "description": "Plan study sessions and deadlines.",
+    "functional": true
+  },
+  {
+    "route": "courses",
+    "title": "Course Catalog",
+    "description": "Explore structured full-stack courses.",
+    "functional": true
+  },
+  {
+    "route": "html-course",
+    "title": "HTML Course",
+    "description": "HTML fundamentals to semantic expert.",
+    "functional": true
+  },
+  {
+    "route": "css-course",
+    "title": "CSS Course",
+    "description": "Responsive layouts, grid, flex and UI.",
+    "functional": true
+  },
+  {
+    "route": "js-course",
+    "title": "JavaScript Course",
+    "description": "ES6+, DOM, async and APIs.",
+    "functional": true
+  },
+  {
+    "route": "python-course",
+    "title": "Python Course",
+    "description": "Python core, OOP, files and tooling.",
+    "functional": true
+  },
+  {
+    "route": "react-course",
+    "title": "React Course",
+    "description": "Components, hooks, routing and state.",
+    "functional": true
+  },
+  {
+    "route": "node-course",
+    "title": "Node Course",
+    "description": "Express APIs, middleware and auth.",
+    "functional": true
+  },
+  {
+    "route": "django-course",
+    "title": "Django Course",
+    "description": "Models, views, REST and deployment.",
+    "functional": true
+  },
+  {
+    "route": "sql-course",
+    "title": "SQL Course",
+    "description": "Queries, joins, indexes and database design.",
+    "functional": true
+  },
+  {
+    "route": "mongo-course",
+    "title": "MongoDB Course",
+    "description": "Documents, aggregation and indexes.",
+    "functional": true
+  },
+  {
+    "route": "dsa-course",
+    "title": "DSA Course",
+    "description": "Arrays, strings, trees, graphs and DP.",
+    "functional": true
+  },
+  {
+    "route": "ai-course",
+    "title": "AI Course",
+    "description": "AI engineering foundations and agents.",
+    "functional": true
+  },
+  {
+    "route": "ml-course",
+    "title": "ML Course",
+    "description": "Supervised learning and evaluation.",
+    "functional": true
+  },
+  {
+    "route": "devops-course",
+    "title": "DevOps Course",
+    "description": "CI/CD, Docker and deployment.",
+    "functional": true
+  },
+  {
+    "route": "cloud-course",
+    "title": "Cloud Course",
+    "description": "Cloud architecture and production basics.",
+    "functional": true
+  },
+  {
+    "route": "api-lab",
+    "title": "API Lab",
+    "description": "Build and test REST APIs.",
+    "functional": true
+  },
+  {
+    "route": "auth-lab",
+    "title": "Auth Lab",
+    "description": "JWT, sessions and role-based access.",
+    "functional": true
+  },
+  {
+    "route": "database-lab",
+    "title": "Database Lab",
+    "description": "Schema, queries and persistence.",
+    "functional": true
+  },
+  {
+    "route": "testing-lab-plus",
+    "title": "Testing Plus",
+    "description": "Unit, integration and smoke testing.",
+    "functional": true
+  },
+  {
+    "route": "performance",
+    "title": "Performance Lab",
+    "description": "Frontend and API performance tuning.",
+    "functional": true
+  },
+  {
+    "route": "seo",
+    "title": "SEO Studio",
+    "description": "Technical SEO and discoverability.",
+    "functional": true
+  },
+  {
+    "route": "accessibility",
+    "title": "Accessibility Lab",
+    "description": "Build inclusive web interfaces.",
+    "functional": true
+  },
+  {
+    "route": "ui-kit",
+    "title": "UI Component Kit",
+    "description": "Reusable cards, forms, modals and navigation.",
+    "functional": true
+  },
+  {
+    "route": "design-system",
+    "title": "Design System",
+    "description": "Tokens, spacing, typography and interaction.",
+    "functional": true
+  },
+  {
+    "route": "project-planner",
+    "title": "Project Planner",
+    "description": "Scope, milestones, tasks and releases.",
+    "functional": true
+  },
+  {
+    "route": "project-tracker",
+    "title": "Project Tracker",
+    "description": "Track builds, bugs and delivery.",
+    "functional": true
+  },
+  {
+    "route": "portfolio",
+    "title": "Portfolio Builder",
+    "description": "Create a developer portfolio.",
+    "functional": true
+  },
+  {
+    "route": "resume",
+    "title": "Resume Builder",
+    "description": "Create a fresher-focused technical resume.",
+    "functional": true
+  },
+  {
+    "route": "interview-prep",
+    "title": "Interview Prep",
+    "description": "Technical and behavioral preparation.",
+    "functional": true
+  },
+  {
+    "route": "mock-interview",
+    "title": "Mock Interview",
+    "description": "Timed interview simulator.",
+    "functional": true
+  },
+  {
+    "route": "coding-challenges",
+    "title": "Coding Challenges",
+    "description": "Practice timed coding problems.",
+    "functional": true
+  },
+  {
+    "route": "leetcode-map",
+    "title": "LeetCode Map",
+    "description": "Topic-wise problem strategy.",
+    "functional": true
+  },
+  {
+    "route": "system-design-pro",
+    "title": "System Design Pro",
+    "description": "Design scalable applications.",
+    "functional": true
+  },
+  {
+    "route": "architecture",
+    "title": "Architecture Lab",
+    "description": "Patterns and trade-offs.",
+    "functional": true
+  },
+  {
+    "route": "github-center",
+    "title": "GitHub Center",
+    "description": "Repository workflow and commands.",
+    "functional": true
+  },
+  {
+    "route": "docker-center",
+    "title": "Docker Center",
+    "description": "Images, containers and Compose.",
+    "functional": true
+  },
+  {
+    "route": "render-center",
+    "title": "Render Deploy Center",
+    "description": "Deployment checklist and diagnostics.",
+    "functional": true
+  },
+  {
+    "route": "admin-dashboard",
+    "title": "Admin Dashboard",
+    "description": "Local demo administration console.",
+    "functional": true
+  },
+  {
+    "route": "support",
+    "title": "Support Center",
+    "description": "FAQ, troubleshooting and feedback.",
+    "functional": true
+  },
+  {
+    "route": "help",
+    "title": "Help & Docs",
+    "description": "Product guide and shortcuts.",
+    "functional": true
+  },
+  {
+    "route": "about",
+    "title": "About DSG Developer",
+    "description": "Project vision and technology.",
+    "functional": true
+  },
+  {
+    "route": "changelog",
+    "title": "Changelog",
+    "description": "Release notes and feature history.",
+    "functional": true
+  },
+  {
+    "route": "terms",
+    "title": "Terms",
+    "description": "Local demo terms and usage.",
+    "functional": true
+  },
+  {
+    "route": "privacy",
+    "title": "Privacy",
+    "description": "Local-state privacy notes.",
+    "functional": true
+  }
+]

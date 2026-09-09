@@ -1,7 +1,7 @@
-venv/
+node_modules/
 .env
-__pycache__/
-*.pyc
-db.sqlite3
-staticfiles/
-media/
+.env.*
+!.env.example
+.DS_Store
+*.log
+coverage/

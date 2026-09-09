@@ -1,0 +1,24 @@
+const express=require('express');const path=require('path');const fs=require('fs');
+const app=express();const PORT=process.env.PORT||10000;const HOST='0.0.0.0';
+app.disable('x-powered-by');app.use(express.json({limit:'1mb'}));
+const crypto=require('crypto');
+const state={users:[{id:'u_demo',name:'DSG Developer',email:'demo@dsg.dev',password:'demo123',role:'student',bio:'Full Stack AI Software Engineer learner',avatar:'DD',joinedAt:'2026-09-09T00:00:00.000Z',skills:['HTML','CSS','JavaScript','Python','React','Node.js'],xp:1240,level:13,notifications:[],favorites:[],completed:[]}],sessions:{}};
+const safe=u=>{const x={...u};delete x.password;return x};const byEmail=e=>state.users.find(u=>u.email.toLowerCase()===String(e||'').toLowerCase());const tok=()=>crypto.randomBytes(24).toString('hex');const me=req=>{const t=String(req.headers.authorization||'').replace(/^Bearer\s+/i,'');const id=state.sessions[t];return id?state.users.find(u=>u.id===id):null};
+app.post('/api/auth/register',(req,res)=>{const {name,email,password}=req.body||{};if(!name||!email||!password)return res.status(400).json({error:'Name, email and password are required'});if(String(password).length<6)return res.status(400).json({error:'Password must be at least 6 characters'});if(byEmail(email))return res.status(409).json({error:'Email is already registered'});const u={id:'u_'+crypto.randomBytes(6).toString('hex'),name:String(name).trim(),email:String(email).trim().toLowerCase(),password,role:'student',bio:'New DSG Developer member',avatar:String(name).trim().slice(0,2).toUpperCase(),joinedAt:new Date().toISOString(),skills:[],xp:0,level:1,notifications:[],favorites:[],completed:[]};state.users.push(u);const t=tok();state.sessions[t]=u.id;res.json({token:t,user:safe(u)})});
+app.post('/api/auth/login',(req,res)=>{const {email,password}=req.body||{};const u=byEmail(email);if(!u||u.password!==password)return res.status(401).json({error:'Invalid email or password'});const t=tok();state.sessions[t]=u.id;res.json({token:t,user:safe(u)})});
+app.post('/api/auth/logout',(req,res)=>{const t=String(req.headers.authorization||'').replace(/^Bearer\s+/i,'');delete state.sessions[t];res.json({ok:true})});
+app.get('/api/auth/me',(req,res)=>{const u=me(req);if(!u)return res.status(401).json({error:'Not authenticated'});res.json({user:safe(u)})});
+app.put('/api/profile',(req,res)=>{const u=me(req);if(!u)return res.status(401).json({error:'Not authenticated'});const b=req.body||{};if(b.name!==undefined)u.name=String(b.name).trim()||u.name;if(b.bio!==undefined)u.bio=String(b.bio);if(Array.isArray(b.skills))u.skills=b.skills.slice(0,30).map(String);if(b.avatar!==undefined)u.avatar=String(b.avatar).slice(0,4).toUpperCase();res.json({user:safe(u)})});
+app.post('/api/progress',(req,res)=>{const u=me(req);if(!u)return res.status(401).json({error:'Not authenticated'});const key=String(req.body?.type||'item')+':'+String(req.body?.id||'');if(!u.completed.includes(key)){u.completed.push(key);u.xp+=Math.max(0,Number(req.body?.xp)||0);u.level=Math.max(1,Math.floor(u.xp/100)+1)}res.json({user:safe(u)})});
+app.post('/api/favorites',(req,res)=>{const u=me(req);if(!u)return res.status(401).json({error:'Not authenticated'});const id=String(req.body?.id||'');if(!id)return res.status(400).json({error:'id required'});u.favorites.includes(id)?u.favorites=u.favorites.filter(x=>x!==id):u.favorites.push(id);res.json({favorites:u.favorites})});
+app.get('/api/dashboard',(req,res)=>{const u=me(req);if(!u)return res.status(401).json({error:'Not authenticated'});res.json({user:safe(u),stats:{completed:u.completed.length,favorites:u.favorites.length,xp:u.xp,level:u.level,streak:Math.min(30,Math.floor(u.completed.length/2)+1)}})});
+
+const root=path.join(__dirname,'..');const publicDir=path.join(root,'public');
+app.get('/api/health',(req,res)=>res.json({ok:true,service:'dsg-neuro-arcade-x',developer:'DSG Developer',time:new Date().toISOString()}));
+app.get('/api/meta',(req,res)=>res.json({name:'Neuro Arcade X',developer:'DSG Developer',games:150,modules:35,version:'3.0.0',auth:'enabled',pages:55}));
+app.get('/api/games',(req,res)=>{try{res.json(JSON.parse(fs.readFileSync(path.join(publicDir,'data/games.json'),'utf8')))}catch(e){res.status(500).json({error:'games unavailable'})}});
+app.get('/api/modules',(req,res)=>{try{res.json(JSON.parse(fs.readFileSync(path.join(publicDir,'data/modules.json'),'utf8')))}catch(e){res.status(500).json({error:'modules unavailable'})}});
+app.post('/api/feedback',(req,res)=>{const message=String(req.body?.message||'').trim();if(!message)return res.status(400).json({error:'message required'});res.status(201).json({ok:true,message:'Feedback accepted in demo mode'});});
+app.use(express.static(publicDir,{extensions:['html']}));
+app.get('*',(req,res)=>res.sendFile(path.join(publicDir,'index.html')));
+app.listen(PORT,HOST,()=>console.log(`DSG Developer Neuro Arcade X listening on http://${HOST}:${PORT}`));

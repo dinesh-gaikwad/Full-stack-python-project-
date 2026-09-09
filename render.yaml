@@ -1,0 +1,9 @@
+services:
+  - type: web
+    runtime: node
+    name: dsg-neuro-arcade-x
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true

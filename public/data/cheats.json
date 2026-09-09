@@ -1,0 +1,147 @@
+{
+  "HTML & CSS": [
+    [
+      "HTML skeleton",
+      "<!doctype html>",
+      "Start every modern HTML5 document."
+    ],
+    [
+      "Semantic layout",
+      "<header> <nav> <main> <section> <footer>",
+      "Use meaningful structure for SEO and accessibility."
+    ],
+    [
+      "Form",
+      "<form><label>Name<input name=\"name\"></label><button>Send</button></form>",
+      "Forms collect and submit user input."
+    ],
+    [
+      "Flex",
+      "display:flex; justify-content:space-between; align-items:center;",
+      "One-dimensional layout."
+    ],
+    [
+      "Grid",
+      "display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr));",
+      "Responsive two-dimensional layout."
+    ],
+    [
+      "Responsive",
+      "@media (max-width: 768px){...}",
+      "Adapt UI for smaller screens."
+    ]
+  ],
+  "JavaScript": [
+    [
+      "Variable",
+      "const score = 100; let lives = 3;",
+      "Prefer const; use let for reassignment."
+    ],
+    [
+      "Array",
+      "const users = items.filter(x => x.active);",
+      "Filter and transform collections."
+    ],
+    [
+      "Async",
+      "const data = await fetch(url).then(r => r.json());",
+      "Use async/await for readable async code."
+    ],
+    [
+      "DOM",
+      "document.querySelector('#app').textContent = 'Ready';",
+      "Update browser UI."
+    ],
+    [
+      "Module",
+      "export function sum(a,b){return a+b}",
+      "Keep code modular."
+    ],
+    [
+      "Storage",
+      "localStorage.setItem('xp', String(xp));",
+      "Persist non-sensitive local preferences."
+    ]
+  ],
+  "Python": [
+    [
+      "Function",
+      "def add(a, b):\n    return a + b",
+      "Reusable logic."
+    ],
+    [
+      "List",
+      "nums = [1,2,3]\nprint([n*n for n in nums])",
+      "Compact transformation."
+    ],
+    [
+      "Dictionary",
+      "user = {'name':'DSG','level':1}",
+      "Key/value data."
+    ],
+    [
+      "Exception",
+      "try:\n    run()\nexcept ValueError as e:\n    print(e)",
+      "Handle expected failures."
+    ],
+    [
+      "Class",
+      "class User:\n    def __init__(self,name): self.name=name",
+      "Object-oriented structure."
+    ]
+  ],
+  "SQL": [
+    [
+      "Select",
+      "SELECT id,name FROM users;",
+      "Read selected columns."
+    ],
+    [
+      "Filter",
+      "SELECT * FROM jobs WHERE city='Aurangabad';",
+      "Filter rows."
+    ],
+    [
+      "Join",
+      "SELECT u.name,j.title FROM users u JOIN jobs j ON j.user_id=u.id;",
+      "Combine related tables."
+    ],
+    [
+      "Group",
+      "SELECT role,COUNT(*) FROM users GROUP BY role;",
+      "Aggregate records."
+    ],
+    [
+      "Index",
+      "CREATE INDEX idx_users_email ON users(email);",
+      "Speed common lookups."
+    ]
+  ],
+  "Git": [
+    [
+      "Status",
+      "git status",
+      "See changed files."
+    ],
+    [
+      "Branch",
+      "git switch -c feature/dashboard",
+      "Create and switch branch."
+    ],
+    [
+      "Commit",
+      "git add . && git commit -m \"feat: dashboard\"",
+      "Record a logical change."
+    ],
+    [
+      "Remote",
+      "git push -u origin main",
+      "Push to GitHub."
+    ],
+    [
+      "History",
+      "git log --oneline --decorate -10",
+      "Inspect recent commits."
+    ]
+  ]
+}

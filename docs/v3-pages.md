@@ -1,0 +1,57 @@
+# DSG Developer V3 — New Pages
+
+- `login` — Login
+- `register` — Registration
+- `profile` — My Profile
+- `account` — Account Center
+- `security` — Security Center
+- `notifications` — Notifications
+- `favorites` — Favorites
+- `progress` — Progress Tracker
+- `achievements` — Achievements
+- `streaks` — Streaks & Goals
+- `calendar` — Learning Calendar
+- `courses` — Course Catalog
+- `html-course` — HTML Course
+- `css-course` — CSS Course
+- `js-course` — JavaScript Course
+- `python-course` — Python Course
+- `react-course` — React Course
+- `node-course` — Node Course
+- `django-course` — Django Course
+- `sql-course` — SQL Course
+- `mongo-course` — MongoDB Course
+- `dsa-course` — DSA Course
+- `ai-course` — AI Course
+- `ml-course` — ML Course
+- `devops-course` — DevOps Course
+- `cloud-course` — Cloud Course
+- `api-lab` — API Lab
+- `auth-lab` — Auth Lab
+- `database-lab` — Database Lab
+- `testing-lab-plus` — Testing Plus
+- `performance` — Performance Lab
+- `seo` — SEO Studio
+- `accessibility` — Accessibility Lab
+- `ui-kit` — UI Component Kit
+- `design-system` — Design System
+- `project-planner` — Project Planner
+- `project-tracker` — Project Tracker
+- `portfolio` — Portfolio Builder
+- `resume` — Resume Builder
+- `interview-prep` — Interview Prep
+- `mock-interview` — Mock Interview
+- `coding-challenges` — Coding Challenges
+- `leetcode-map` — LeetCode Map
+- `system-design-pro` — System Design Pro
+- `architecture` — Architecture Lab
+- `github-center` — GitHub Center
+- `docker-center` — Docker Center
+- `render-center` — Render Deploy Center
+- `admin-dashboard` — Admin Dashboard
+- `support` — Support Center
+- `help` — Help & Docs
+- `about` — About DSG Developer
+- `changelog` — Changelog
+- `terms` — Terms
+- `privacy` — Privacy

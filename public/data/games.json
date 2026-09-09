@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 1,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 1: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 2,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 2: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Boss"
+  },
+  {
+    "id": 3,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 3: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 4,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 4: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Arena"
+  },
+  {
+    "id": 5,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 5: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Solo"
+  },
+  {
+    "id": 6,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 6: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 7,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 7: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Boss"
+  },
+  {
+    "id": 8,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 8: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 9,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 9: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Arena"
+  },
+  {
+    "id": 10,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 10: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Solo"
+  },
+  {
+    "id": 11,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 11: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 12,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 12: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Boss"
+  },
+  {
+    "id": 13,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 13: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 14,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 14: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Arena"
+  },
+  {
+    "id": 15,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 15: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Solo"
+  },
+  {
+    "id": 16,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 16: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 17,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 17: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Boss"
+  },
+  {
+    "id": 18,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 18: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 19,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 19: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Arena"
+  },
+  {
+    "id": 20,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 20: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Solo"
+  },
+  {
+    "id": 21,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 21: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 22,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 22: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Boss"
+  },
+  {
+    "id": 23,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 23: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 24,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 24: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Arena"
+  },
+  {
+    "id": 25,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 25: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Solo"
+  },
+  {
+    "id": 26,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 26: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 27,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 27: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Boss"
+  },
+  {
+    "id": 28,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 28: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 29,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 29: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Arena"
+  },
+  {
+    "id": 30,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 30: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Solo"
+  },
+  {
+    "id": 31,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 31: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 32,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 32: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Boss"
+  },
+  {
+    "id": 33,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 33: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 34,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 34: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Arena"
+  },
+  {
+    "id": 35,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 35: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Solo"
+  },
+  {
+    "id": 36,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 36: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 37,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 37: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Boss"
+  },
+  {
+    "id": 38,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 38: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 39,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 39: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Arena"
+  },
+  {
+    "id": 40,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 40: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Solo"
+  },
+  {
+    "id": 41,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 41: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 42,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 42: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Boss"
+  },
+  {
+    "id": 43,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 43: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 44,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 44: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Arena"
+  },
+  {
+    "id": 45,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 45: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Solo"
+  },
+  {
+    "id": 46,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 46: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 47,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 47: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Boss"
+  },
+  {
+    "id": 48,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 48: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 49,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 49: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Arena"
+  },
+  {
+    "id": 50,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 50: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Solo"
+  },
+  {
+    "id": 51,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 51: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 52,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 52: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Boss"
+  },
+  {
+    "id": 53,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 53: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 54,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 54: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Arena"
+  },
+  {
+    "id": 55,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 55: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Solo"
+  },
+  {
+    "id": 56,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 56: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 57,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 57: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Boss"
+  },
+  {
+    "id": 58,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 58: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 59,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 59: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Arena"
+  },
+  {
+    "id": 60,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 60: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Solo"
+  },
+  {
+    "id": 61,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 61: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 62,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 62: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Boss"
+  },
+  {
+    "id": 63,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 63: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 64,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 64: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Arena"
+  },
+  {
+    "id": 65,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 65: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Solo"
+  },
+  {
+    "id": 66,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 66: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 67,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 67: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Boss"
+  },
+  {
+    "id": 68,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 68: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 69,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 69: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Arena"
+  },
+  {
+    "id": 70,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 70: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Solo"
+  },
+  {
+    "id": 71,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 71: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 72,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 72: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Boss"
+  },
+  {
+    "id": 73,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 73: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 74,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 74: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Arena"
+  },
+  {
+    "id": 75,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 75: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Solo"
+  },
+  {
+    "id": 76,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 76: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 77,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 77: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Boss"
+  },
+  {
+    "id": 78,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 78: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 79,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 79: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Arena"
+  },
+  {
+    "id": 80,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 80: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Solo"
+  },
+  {
+    "id": 81,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 81: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 82,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 82: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Boss"
+  },
+  {
+    "id": 83,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 83: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 84,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 84: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Arena"
+  },
+  {
+    "id": 85,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 85: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Solo"
+  },
+  {
+    "id": 86,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 86: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 87,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 87: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Boss"
+  },
+  {
+    "id": 88,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 88: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 89,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 89: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Arena"
+  },
+  {
+    "id": 90,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 90: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Solo"
+  },
+  {
+    "id": 91,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 91: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 92,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 92: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Boss"
+  },
+  {
+    "id": 93,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 93: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 94,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 94: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Arena"
+  },
+  {
+    "id": 95,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 95: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Solo"
+  },
+  {
+    "id": 96,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 96: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 97,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 97: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Boss"
+  },
+  {
+    "id": 98,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 98: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 99,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 99: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Arena"
+  },
+  {
+    "id": 100,
+    "title": "Metaverse 3D Command Center",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 100: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Solo"
+  },
+  {
+    "id": 101,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 101: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 102,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 102: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Boss"
+  },
+  {
+    "id": 103,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 103: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 104,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 104: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Arena"
+  },
+  {
+    "id": 105,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 105: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Solo"
+  },
+  {
+    "id": 106,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 106: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 107,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 107: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Boss"
+  },
+  {
+    "id": 108,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 108: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 109,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 109: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Arena"
+  },
+  {
+    "id": 110,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 110: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Solo"
+  },
+  {
+    "id": 111,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 111: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 112,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 112: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Boss"
+  },
+  {
+    "id": 113,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 113: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 114,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 114: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Arena"
+  },
+  {
+    "id": 115,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 115: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Solo"
+  },
+  {
+    "id": 116,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 116: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 117,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 117: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Boss"
+  },
+  {
+    "id": 118,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 118: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 119,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 119: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Arena"
+  },
+  {
+    "id": 120,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 120: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Solo"
+  },
+  {
+    "id": 121,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 121: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 122,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 122: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Boss"
+  },
+  {
+    "id": 123,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 123: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 124,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 124: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Arena"
+  },
+  {
+    "id": 125,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 125: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Solo"
+  },
+  {
+    "id": 126,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 126: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 127,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 127: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Boss"
+  },
+  {
+    "id": 128,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 128: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 129,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 129: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Arena"
+  },
+  {
+    "id": 130,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 130: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Solo"
+  },
+  {
+    "id": 131,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 131: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 132,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 132: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Boss"
+  },
+  {
+    "id": 133,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 133: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 134,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 134: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Arena"
+  },
+  {
+    "id": 135,
+    "title": "Neon Runner",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 135: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Solo"
+  },
+  {
+    "id": 136,
+    "title": "Hyper Circuit",
+    "category": "HTML & CSS",
+    "difficulty": 2,
+    "description": "Game 136: a HTML & CSS themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 137,
+    "title": "Shadow Defender",
+    "category": "JavaScript",
+    "difficulty": 3,
+    "description": "Game 137: a JavaScript themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Boss"
+  },
+  {
+    "id": 138,
+    "title": "Solar Strike",
+    "category": "Python",
+    "difficulty": 4,
+    "description": "Game 138: a Python themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 139,
+    "title": "Rogue Hunter",
+    "category": "React",
+    "difficulty": 5,
+    "description": "Game 139: a React themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Arena"
+  },
+  {
+    "id": 140,
+    "title": "Neon Dash",
+    "category": "Node.js",
+    "difficulty": 1,
+    "description": "Game 140: a Node.js themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Solo"
+  },
+  {
+    "id": 141,
+    "title": "Hyper Sprint",
+    "category": "Django",
+    "difficulty": 2,
+    "description": "Game 141: a Django themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 142,
+    "title": "Shadow Quest",
+    "category": "SQL",
+    "difficulty": 3,
+    "description": "Game 142: a SQL themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Boss"
+  },
+  {
+    "id": 143,
+    "title": "Solar Master",
+    "category": "MongoDB",
+    "difficulty": 4,
+    "description": "Game 143: a MongoDB themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 144,
+    "title": "Rogue Lab",
+    "category": "DSA",
+    "difficulty": 5,
+    "description": "Game 144: a DSA themed challenge with score, combo, XP and a daily mission.",
+    "xp": 150,
+    "mode": "Arena"
+  },
+  {
+    "id": 145,
+    "title": "Neon Builder",
+    "category": "AI/ML",
+    "difficulty": 1,
+    "description": "Game 145: a AI/ML themed challenge with score, combo, XP and a daily mission.",
+    "xp": 175,
+    "mode": "Solo"
+  },
+  {
+    "id": 146,
+    "title": "Hyper Arena",
+    "category": "DevOps",
+    "difficulty": 2,
+    "description": "Game 146: a DevOps themed challenge with score, combo, XP and a daily mission.",
+    "xp": 200,
+    "mode": "Speedrun"
+  },
+  {
+    "id": 147,
+    "title": "Shadow Raid",
+    "category": "Git/GitHub",
+    "difficulty": 3,
+    "description": "Game 147: a Git/GitHub themed challenge with score, combo, XP and a daily mission.",
+    "xp": 50,
+    "mode": "Boss"
+  },
+  {
+    "id": 148,
+    "title": "Solar Forge",
+    "category": "Interview",
+    "difficulty": 4,
+    "description": "Game 148: a Interview themed challenge with score, combo, XP and a daily mission.",
+    "xp": 75,
+    "mode": "Puzzle"
+  },
+  {
+    "id": 149,
+    "title": "Rogue Clash",
+    "category": "System Design",
+    "difficulty": 5,
+    "description": "Game 149: a System Design themed challenge with score, combo, XP and a daily mission.",
+    "xp": 100,
+    "mode": "Arena"
+  },
+  {
+    "id": 150,
+    "title": "Neuro Overlord \u2014 Final Boss",
+    "category": "Projects",
+    "difficulty": 1,
+    "description": "Game 150: a Projects themed challenge with score, combo, XP and a daily mission.",
+    "xp": 125,
+    "mode": "Solo"
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard",
+    "description": "Command center for XP, streaks, activity and quick actions."
+  },
+  {
+    "id": 2,
+    "name": "Cheat Sheets",
+    "description": "Searchable HTML/CSS, JavaScript, Python, SQL and Git reference cards."
+  },
+  {
+    "id": 3,
+    "name": "HTML Lab",
+    "description": "Semantic HTML, forms, tables, accessibility and SEO practice."
+  },
+  {
+    "id": 4,
+    "name": "CSS Studio",
+    "description": "Flexbox, Grid, responsive design, animations and design tokens."
+  },
+  {
+    "id": 5,
+    "name": "JavaScript Lab",
+    "description": "ES6+, DOM, events, async/await, modules and browser APIs."
+  },
+  {
+    "id": 6,
+    "name": "Python Lab",
+    "description": "Syntax, functions, collections, OOP, files, exceptions and automation."
+  },
+  {
+    "id": 7,
+    "name": "React Studio",
+    "description": "Components, props, state, hooks, routing and performance."
+  },
+  {
+    "id": 8,
+    "name": "Node API Lab",
+    "description": "REST APIs, middleware, validation, error handling and deployment."
+  },
+  {
+    "id": 9,
+    "name": "Django Lab",
+    "description": "Models, views, URLs, templates, forms, auth and REST patterns."
+  },
+  {
+    "id": 10,
+    "name": "SQL Arena",
+    "description": "SELECT, JOIN, GROUP BY, subqueries, indexes and transactions."
+  },
+  {
+    "id": 11,
+    "name": "Mongo Lab",
+    "description": "Documents, aggregation, indexes and Mongoose patterns."
+  },
+  {
+    "id": 12,
+    "name": "DSA Gym",
+    "description": "Arrays, strings, stacks, queues, trees, graphs, DP and complexity."
+  },
+  {
+    "id": 13,
+    "name": "AI/ML Lab",
+    "description": "Data preparation, regression, classification, evaluation and ML workflow."
+  },
+  {
+    "id": 14,
+    "name": "Git Command Center",
+    "description": "Branches, commits, rebase, stash, tags and collaboration."
+  },
+  {
+    "id": 15,
+    "name": "Docker Lab",
+    "description": "Images, containers, Dockerfiles, Compose and production habits."
+  },
+  {
+    "id": 16,
+    "name": "Cloud Deploy",
+    "description": "Render, environment variables, health checks and release workflow."
+  },
+  {
+    "id": 17,
+    "name": "Interview Room",
+    "description": "HR, technical, DSA, system design and project-defense practice."
+  },
+  {
+    "id": 18,
+    "name": "System Design",
+    "description": "APIs, caching, queues, databases, scaling and reliability."
+  },
+  {
+    "id": 19,
+    "name": "Project Factory",
+    "description": "Project blueprints with milestones, stack, APIs and deployment plans."
+  },
+  {
+    "id": 20,
+    "name": "Code Snippets",
+    "description": "Reusable snippets with copy, search and language filters."
+  },
+  {
+    "id": 21,
+    "name": "Daily Challenge",
+    "description": "One timed challenge with XP and streak rewards."
+  },
+  {
+    "id": 22,
+    "name": "Leaderboard",
+    "description": "Global-style local leaderboard and weekly competition."
+  },
+  {
+    "id": 23,
+    "name": "Clan Hub",
+    "description": "Create a clan, join events and track team XP."
+  },
+  {
+    "id": 24,
+    "name": "Level Editor",
+    "description": "Design arcade levels and publish them to the local marketplace."
+  },
+  {
+    "id": 25,
+    "name": "Marketplace",
+    "description": "Creator assets, templates and cosmetic themes."
+  },
+  {
+    "id": 26,
+    "name": "Analytics",
+    "description": "Learning velocity, category progress and game performance."
+  },
+  {
+    "id": 27,
+    "name": "Notes",
+    "description": "Rich local notes for study topics and interview preparation."
+  },
+  {
+    "id": 28,
+    "name": "Bookmarks",
+    "description": "Save cheat sheets, games and projects for later."
+  },
+  {
+    "id": 29,
+    "name": "Roadmaps",
+    "description": "Full-stack, Python, AI engineer and SDE learning routes."
+  },
+  {
+    "id": 30,
+    "name": "Resume Lab",
+    "description": "Skill inventory, project bullets and ATS-friendly checklist."
+  },
+  {
+    "id": 31,
+    "name": "Portfolio Lab",
+    "description": "Case-study builder for GitHub, Render and LinkedIn projects."
+  },
+  {
+    "id": 32,
+    "name": "Security Basics",
+    "description": "Secrets, input validation, auth, CORS and secure deployment."
+  },
+  {
+    "id": 33,
+    "name": "Testing Lab",
+    "description": "Unit, API, UI and smoke-test checklists."
+  },
+  {
+    "id": 34,
+    "name": "Admin Console",
+    "description": "Demo controls for content, feature flags and system health."
+  },
+  {
+    "id": 35,
+    "name": "Settings",
+    "description": "Theme, motion, local data, profile and preferences."
+  }
+]
